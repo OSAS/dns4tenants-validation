@@ -1,0 +1,9 @@
+---
+name: "DNS4Tenants Validation"
+description: "Check changed zones for DNS4Tenants"
+inputs: {}
+outputs: {}
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
